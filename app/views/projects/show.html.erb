@@ -1,0 +1,47 @@
+<h1>Project</h1>
+
+<p>
+  <b>Name</b><br>
+  <%= @project.name %>
+</p>
+
+<p>
+  <b>Desc</b><br>
+  <%= @project.desc %>
+</p>
+
+<p>
+  <b>Phone</b><br>
+  <%= @project.phone %>
+</p>
+
+<p>
+  <b>Live</b><br>
+  <%= @project.live %>
+</p>
+
+<p>
+  <b>Staging</b><br>
+  <%= @project.staging %>
+</p>
+
+<p>
+  <b>Test</b><br>
+  <%= @project.test %>
+</p>
+
+<p>
+  <b>Design</b><br>
+  <%= @project.design %>
+</p>
+
+<p>
+  <b>Note</b><br>
+  <%= @project.note %>
+</p>
+
+<div class="form-actions">
+  <%= link_to 'Back', projects_path, :class => 'btn'  %>
+  <%= link_to 'Edit', edit_project_path(@project), :class => 'btn' %>
+  <%= link_to 'Delete', project_path(@project), :method => 'delete', :confirm => 'Are you sure?', :class => 'btn btn-danger' %>
+</div>

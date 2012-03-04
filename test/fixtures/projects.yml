@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  desc: MyText
+  phone: MyString
+  live: MyString
+  staging: MyString
+  test: MyString
+  design: MyString
+  note: MyText
+
+two:
+  name: MyString
+  desc: MyText
+  phone: MyString
+  live: MyString
+  staging: MyString
+  test: MyString
+  design: MyString
+  note: MyText
